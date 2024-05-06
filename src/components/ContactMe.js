@@ -3,11 +3,9 @@ import "@fontsource/pixelify-sans";
 import {
   Box,
   Button,
-  Checkbox,
   Flex,
   FormControl,
   FormLabel,
-  FormErrorMessage,
   Input,
   VStack
 } from "@chakra-ui/react";

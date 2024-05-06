@@ -1,6 +1,6 @@
 import './App.css';
 import ContactMe from './components/ContactMe';
-import { VStack, Box } from '@chakra-ui/react'
+import { VStack } from '@chakra-ui/react'
 import Footer from './components/Footer';
 import FeaturedProjects from './components/FeaturedProjects';
 import Portfolio from './components/Portfolio';
