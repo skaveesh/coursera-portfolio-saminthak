@@ -1,9 +1,9 @@
 import './App.css';
-import ContactMe from './components/ContactMe';
+import ContactMe from './components/sections/ContactMe';
 import { VStack } from '@chakra-ui/react'
-import Footer from './components/Footer';
-import FeaturedProjects from './components/FeaturedProjects';
-import Portfolio from './components/Portfolio';
+import Footer from './components/sections/Footer';
+import FeaturedProjects from './components/sections/FeaturedProjects';
+import Portfolio from './components/sections/Portfolio';
 
 function App() {
   return (

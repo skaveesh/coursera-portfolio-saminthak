@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
+import { modalTheme } from './components/config/ThemeConfig'
+import { buttonTheme } from './components/config/ThemeConfig'
+
+export const theme = extendTheme({
+  components: { Modal: modalTheme, Button: buttonTheme },
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ChakraProvider>
+  <ChakraProvider theme={theme}>
       <App />
   </ChakraProvider>
 );

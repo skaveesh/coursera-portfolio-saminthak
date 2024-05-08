@@ -1,4 +1,4 @@
-import profileImg from '../images/dp.jpg';
+import profileImg from '../../images/dp.jpg';
 import {
   Box,
   Flex,

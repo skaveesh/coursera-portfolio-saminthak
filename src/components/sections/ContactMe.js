@@ -7,15 +7,16 @@ import {
   FormControl,
   FormLabel,
   Input,
-  VStack
+  VStack,
+  Heading
 } from "@chakra-ui/react";
 
 export default function ContactMe() {
     return (
       <Box bg="yellow.400">
-      <Flex align="center" justify="center" h="100vh" >
+      <Flex align="center" justify="center" h="100vh">
         <Box p={6} rounded="md" w={640}>
-          <span style={{ fontSize: "3em", fontFamily:"Pixelify Sans"}}>CONTACT ME</span>
+        <Heading fontFamily="Pixelify Sans" lineHeight='tall' as="h2" size='xl' noOfLines={1}>CONTACT ME</Heading>
           <Formik
             initialValues={{
               email: "",
@@ -39,7 +40,7 @@ export default function ContactMe() {
                       variant="filled"
                     />
                   </FormControl>
-                  <Button type="submit" color="white" bg="#4299e1" width="full">
+                  <Button type="submit" color="white" bg="#4299e1" width="full" variant="bluePrimary">
                     Submit
                   </Button>
                 </VStack>
